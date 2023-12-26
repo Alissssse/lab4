@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    background-color: rgb(87, 135, 225);
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    margin: 0 200px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    background-image: url(коты.jpg);
+}
+button{
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    font-size: 2em;
+}

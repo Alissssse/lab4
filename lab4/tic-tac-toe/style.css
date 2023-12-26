@@ -1,0 +1,51 @@
+.game{
+    margin: 0 auto;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field{
+    max-width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    border: 2px solid rgb(38, 145, 90);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new_game{
+    margin-top: 20px;
+}
+.field-items{
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(38, 145, 90);
+    box-sizing: border-box;
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error {
+    color: white;
+    background-color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.success {
+    color: white;
+    background-color: rgb(61, 210, 61);
+}
+
+.message {
+    box-sizing: border-box;
+    width: 450px;
+    margin: 10px 0;
+    padding: 10px 5px;
+}
